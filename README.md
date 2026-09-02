@@ -88,6 +88,6 @@ stationary. It cannot vary the filter width, which is why it is not Approach 3.
 * Expect Section 5.4 (raw, unnoised data) to show filtering *reduces* accuracy —
   blurring clean images costs information. Section 5.4's wording ("investigate
   whether") accommodates that honestly, and it motivates 5.5.
-=======
+
 # nonstationary-filtering-fourier-analysis
 

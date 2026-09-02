@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Section 5 — Nonstationary image filtering for downstream classification
 
 Paper: FOURIER ANALYSIS OF NONSTATIONARY FILTERING VIA
@@ -91,4 +90,4 @@ stationary. It cannot vary the filter width, which is why it is not Approach 3.
   whether") accommodates that honestly, and it motivates 5.5.
 =======
 # nonstationary-filtering-fourier-analysis
->>>>>>> a28b0fb7e3aaaa417fdad2393b4647d610626a4f
+

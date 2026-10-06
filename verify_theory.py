@@ -1,12 +1,12 @@
 """
-verify_theory.py -- checks the implementation against the paper itself.
+verify_theory.py 
 
 Reproduces the N = 4 mask/convolution layout of Section 2.1, the combination
 layout of Section 2.2, the stationary/circulant collapse of Section 2.3,
 Proposition 1, Lemma 1, Lemmas 2-4 and Corollary 1, Proposition 2, Lemma 5,
 Lemma 6, and the printed matrices of Examples 1, 2 and 3.
 
-Pure NumPy; no data, no training.  Run first, before anything else.
+Pure NumPy;
 """
 
 import numpy as np

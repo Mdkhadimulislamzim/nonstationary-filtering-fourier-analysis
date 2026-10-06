@@ -1,5 +1,5 @@
 """
-data.py -- MedMNIST v2 / MedMNIST+ loading (PDF-3, Stage 1).
+data.py -- MedMNIST v2 / MedMNIST+ loading (Stage 1).
 
 Primary dataset: OCTMNIST.  Retinal optical coherence tomography, four
 diagnostic classes, official split 97,477 / 10,832 / 1,000 (Yang et al.,
@@ -99,7 +99,7 @@ def load_medmnist(flag: str = "octmnist", size: int = 224,
 def subsample(split: Split, n: int, seed: int = 0, stratified: bool = True) -> Split:
     """Class-stratified subsample, for the validation parameter search.
 
-    PDF-3 item 6 requires the filter parameters to be chosen on validation
+    its requires the filter parameters to be chosen on validation
     data and then fixed.  Running that search on the full 97k training set is
     wasteful; a stratified subset keeps the class proportions intact.
     """

@@ -98,7 +98,7 @@ def filter_images(images: np.ndarray, op: "FilterOperator") -> np.ndarray:
 
     Accepts (H, W), (n, H, W) or (n, H, W, c); the operator acts on the last
     axis, so colour channels are filtered independently by the unchanged
-    one-dimensional operator (PDF-3's note for PathMNIST).
+    one-dimensional operator (PathMNIST).
     """
     x = np.asarray(images, dtype=np.float32)
     if x.ndim == 4:                      # (n, H, W, c) -> filter along W
